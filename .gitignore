@@ -1,3 +1,25 @@
+# 파일 제외
+# 파일명.확장자
+# markdown.ipynb
+
+# 현재 경로에 잇는 파일만 제외 (다른 폴더에 있는 파일은 들어감)
+# /파일명.확장자
+
+# 특정 경로안의 특정 파일 제외
+# 폴더명/파일명.확장자
+
+# 특정 폴더 안의 파일 전부 제외
+# 폴더명/
+# img/
+
+# 해당 확장자 파일 전체 제외
+# *.확장자
+
+# 예외
+# !제외할파일명.확장자
+
+
+
 Doit/
 img/
 markdown.ipynb
@@ -5,3 +27,6 @@ note.ipynb
 Pandas_Cheat_Sheet.pdf
 05_machine_learning/원본지킴이/
 00_machine.ipynb
+human_activity/
+creditcard.csv
+santander.csv
